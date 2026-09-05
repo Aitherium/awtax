@@ -10,9 +10,12 @@ Getting your own numbers back out means re-typing them or re-buying the app that
 it came from, and whether the arithmetic checks out.
 
 ```bash
-pip install awtax
+git clone https://github.com/Aitherium/awtax && cd awtax && pip install -e .
 awtax path/to/return.pdf          # -> structured JSON on stdout
 ```
+
+> Not on PyPI yet, so `pip install awtax` does **not** work — that name resolves
+> to nothing today. Install from the clone until a release exists.
 
 ## What you get
 
@@ -30,7 +33,7 @@ awtax path/to/return.pdf          # -> structured JSON on stdout
 
 | backend | how | when |
 |---|---|---|
-| **awvision** (preferred) | `pip install awtax[vision]`, pass `--endpoint` | a vision model extracts fields as JSON |
+| **awvision** (preferred) | `pip install -e '.[vision]'` from the clone, pass `--endpoint` | a vision model extracts fields as JSON |
 | **tesseract** (offline fallback) | install the `tesseract` system binary | no network / no vision endpoint |
 | neither | — | pages return `needs_review` with a reason |
 
