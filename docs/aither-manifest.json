@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1",
+  "name": "awtax",
+  "description": "Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check.",
+  "url": "https://aitherium.github.io/awtax/",
+  "repository": "https://github.com/Aitherium/awtax",
+  "kind": "tool",
+  "status": "public",
+  "adopt": "Point it at a tax PDF and get every figure out as structured JSON, scanned forms included.",
+  "pairs_with": [
+    "awvision",
+    "awpack",
+    "awskills",
+    "awdk",
+    "awknowledge"
+  ],
+  "includes": [],
+  "metrics": {
+    "files": {
+      "value": 14,
+      "as_of": "2026-09-06T20:00:06-07:00"
+    },
+    "tests": {
+      "value": 1,
+      "as_of": "2026-09-06T20:00:06-07:00"
+    }
+  }
+}
