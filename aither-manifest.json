@@ -5,7 +5,7 @@
   "url": "https://aitherium.github.io/awtax/",
   "repository": "https://github.com/Aitherium/awtax",
   "kind": "tool",
-  "status": "no-pages",
+  "status": "public",
   "adopt": "Point it at a tax PDF and get every figure out as structured JSON, scanned forms included.",
   "pairs_with": [
     "awvision",
@@ -14,5 +14,15 @@
     "awdk",
     "awknowledge"
   ],
-  "includes": []
+  "includes": [],
+  "metrics": {
+    "files": {
+      "value": 14,
+      "as_of": "2026-09-06T20:01:00-07:00"
+    },
+    "tests": {
+      "value": 1,
+      "as_of": "2026-09-06T20:01:00-07:00"
+    }
+  }
 }
