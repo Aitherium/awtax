@@ -1,0 +1,33 @@
+# awtax
+
+> Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check.
+
+Your own tax data gets locked inside one vendor's encrypted format, and a filed return or a mailed W-2 is a PDF nobody's code can read -- half of them are scans with no text at all. Getting your own numbers back out means re-typing them or re-buying the app that sealed them.
+
+## Install
+
+```
+pip install awtax
+```
+
+## Use it in 30 seconds
+
+Point it at a tax PDF and get every figure out as structured JSON, scanned forms included.
+
+## Composes with
+
+- [awvision](https://aitherium.github.io/awvision/) — See an image — describe it, ask it a question, compare two.
+- [awpack](https://aitherium.github.io/awpack/) — First-party agent packs — the ones we build, versioned and installable on their own.
+- [awskills](https://aitherium.github.io/awskills/) — Portable agent skills — self-contained procedures an agent loads on demand.
+- [awdk](https://aitherium.github.io/awdk/) — Build AI agent fleets — 3 lines, any backend, local or cloud.
+- [awknowledge](https://aitherium.github.io/awknowledge/) — How to run a coding agent so the result survives — the laws, with evidence.
+
+## Where it lives
+
+- Repo: https://github.com/Aitherium/awtax
+- Docs: https://aitherium.github.io/awtax/
+- Manifest (keys + the one-line adoption story): https://aitherium.github.io/awtax/aither-manifest.json
+
+This repository is mirrored from the AitherOS monorepo by `.github/workflows/sync-awtax.yml`; hand edits made here are overwritten on the next sync — change the source instead.
+
+Everything Aitherium, in one file for agents: https://aitherium.com/llms.txt
